@@ -1,29 +1,36 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+/* Code generated using ChatGPT and edited by me */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e6e6e6;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+h1 {
+  margin-bottom: 10px;
 }
 
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+input {
+  padding: 5px;
 }
 
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+ol {
+  margin-top: 15px;
+  width: 320px;
+  padding-left: 25px;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+.task-text {
+  flex: 1;
+}
+
+.done-btn {
+  cursor: pointer;
+  border: none;
+  background: none;
 }
